@@ -39,7 +39,7 @@ let update = () => {
             max-width: 100%;
 
             img {
-                width: 100%;
+                width: 90vmin;
                 image-rendering: pixelated;
             }
 
