@@ -1,0 +1,29 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	color: rgb(255, 255, 255);
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 100;
+	image-rendering: crisp-edges;
+	overflow: overlay;
+}
+
+.light {
+	background: rgb(233, 238, 238);
+	color: rgba(36,20,47,1);
+}
+
+.dark {
+	background: rgba(36,20,47,1);
+	color: rgb(233, 238, 238);
+}
+
+.scroll-lock {
+	overflow: hidden;
+}
